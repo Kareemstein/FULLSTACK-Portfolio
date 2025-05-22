@@ -9,7 +9,7 @@ function PortfolioPage() {
 
   useEffect(() => {
     axios.get('https://portfolio-backend-liou.onrender.com/api/projects')
-      .then(response => {
+      .then(response => { //test3213
         setProjects(response.data);
       })
       .catch(error => {
