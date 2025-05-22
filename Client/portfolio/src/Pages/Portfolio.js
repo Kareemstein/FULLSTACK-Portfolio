@@ -9,7 +9,7 @@ function PortfolioPage() {
 
   useEffect(() => {
     axios.get('https://portfolio-backend-liou.onrender.com/api/projects')
-      .then(response => { //test3213
+      .then(response => { 
         setProjects(response.data);
       })
       .catch(error => {
@@ -29,7 +29,7 @@ function PortfolioPage() {
             >
               <div className="card h-100 shadow-sm">
                 <img
-                  src="https://via.placeholder.com/400x200"
+                  src="https://iconduck.com/icons/190777/adobe-portfolio"
                   className="card-img-top"
                   alt={`${project.title} Portfolio`}
                 />

@@ -13,13 +13,13 @@ const sampleData = [
   {
     id: 1,
     title: "Saher\'s Portfolio",
-    description: 'senior computer science student.',
+    description: 'Senior computer science student.',
     cvFile: 'CV_Saher.pdf'
   },
   {
     id: 2,
     title: 'Kareem\'s Portfolio',
-    description: 'senior computer science student.',
+    description: 'Senior computer science student.',
     cvFile: 'CV_Kareem.pdf'
   }
 ];
