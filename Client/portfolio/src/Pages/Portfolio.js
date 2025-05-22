@@ -28,11 +28,6 @@ function PortfolioPage() {
               className="text-decoration-none text-dark"
             >
               <div className="card h-100 shadow-sm">
-                <img
-                  src="https://iconduck.com/icons/190777/adobe-portfolio"
-                  className="card-img-top"
-                  alt={`${project.title} Portfolio`}
-                />
                 <div className="card-body">
                   <h5 className="card-title text-uppercase">{project.title}</h5>
                   <p className="card-text">{project.description}</p>
