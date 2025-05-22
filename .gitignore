@@ -1,0 +1,12 @@
+# Global ignores
+node_modules/
+.env
+.DS_Store
+
+# Ignore nested node_modules
+Client/portfolio/node_modules/
+Server/node_modules/
+
+# Build outputs
+build/
+dist/
