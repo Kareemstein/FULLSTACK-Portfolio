@@ -8,7 +8,7 @@ function PortfolioPage() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    axios.get('http://10.0.0.99:5000/api/projects')
+    axios.get('https://portfolio-backend-liou.onrender.com/api/projects')
       .then(response => {
         setProjects(response.data);
       })
